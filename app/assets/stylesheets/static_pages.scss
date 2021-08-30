@@ -1,3 +1,144 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.div_profile{
+    height: 72px;
+    width: 100%;
+    background: #279BCC;
+}
+
+.h1_profile{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 14px;
+}
+
+.description{
+    background: #F2F2F2;
+    width: 100%;
+    height: 410.91px;
+}
+
+.div_image{
+    padding-top: 37px;
+    padding-bottom: 34px;
+}
+
+.image_description{
+    height: 174px;
+    width: 174px;
+    margin-top: 109px;
+    border-radius: 50%;
+    display:block;
+    margin: auto;
+    border: 5px solid #279BCC;
+}
+
+.h2_description{
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #279BCC;
+}
+
+.text_header{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+
+    color:black;
+}
+
+.span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #279BCC;
+}
+
+.container{
+    border-top: 23px solid #279BCC;
+    height: auto;
+    width: 100%;
+    border-bottom: 20px solid #279BCC;
+}
+
+.container_box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+
+.div_box{
+    width: calc(33.33% - 20px);
+    height: 246px;
+    margin: 0px 10px;
+    border-bottom: 9px solid #279BCC;
+    border-right: 1px solid #DBDBDB;
+    border-top: 1px solid #DBDBDB;
+    border-left: 1px solid #DBDBDB;
+}
+
+.title_box{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 22px;
+    padding-top: 18px;
+    color: #279BCC;
+}
+
+.list{
+    margin-top: 16px;
+    margin-left: 21px;
+    margin-bottom: 11px;
+    list-style: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.footer{
+    width: 100%;
+    background: #F2F2F2;
+}
+
+.p_footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
